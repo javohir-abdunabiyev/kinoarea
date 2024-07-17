@@ -11,12 +11,6 @@ body {
     background-position: top;
     background-size: contain;
     background-blend-mode: overlay;
-    
-}
-
-.with-gradient {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(30, 37, 56, 1)),
-                url('your-default-image.jpg') no-repeat center center/cover;
 }
 
 .container {
@@ -120,6 +114,10 @@ input::placeholder {
 .genres_nav {
     display: flex;
     gap: 50px;
+    width: 704px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    text-wrap: nowrap;
     a {
         color: grey;
     }

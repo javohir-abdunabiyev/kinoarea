@@ -36,5 +36,5 @@ getBase()
 
 getGenres()
     .then(res => {
-        reload(res.genres.slice(0, 7), genresLoad, genresPlace)
+        reload(res.genres, genresLoad, genresPlace)
     })

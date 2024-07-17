@@ -19,5 +19,4 @@ export function imagesLoad(item: any) {
     img_div.append(img, img_title)
 
     return img_div
-
 }
