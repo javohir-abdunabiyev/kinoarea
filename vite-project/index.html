@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css">
-    <title>Vite + TS</title>
+    <link rel="shortcut icon" href="/img/cinema.png" type="image/x-icon">
+    <title>Kinoarea</title>
   </head>
   <body>
     
@@ -55,12 +55,15 @@
 
 
     <div class="video">
-      
+      <iframe src=""></iframe>
+      <div class="trailers_list"></div>
     </div>
 
 
+
+    <script type="module" src="/src/components/loadtrailers.ts"></script>
     <script type="module" src="/src/components/imgload.ts"></script>
-    <script type="module" src="/src/getApi/index.ts"></script>
+    <script type="module" src="/src/lib/index.ts"></script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

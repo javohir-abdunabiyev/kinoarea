@@ -114,7 +114,7 @@ input::placeholder {
 .genres_nav {
     display: flex;
     gap: 50px;
-    width: 704px;
+    max-width: 704px;
     overflow-x: auto;
     scrollbar-width: none;
     text-wrap: nowrap;
@@ -193,4 +193,8 @@ input::placeholder {
         line-height: 27.26px;
             
     }
+}
+
+.genres_a {
+    cursor: pointer;
 }

@@ -1,4 +1,4 @@
-const imgstarturl: URL = new URL("https://image.tmdb.org/t/p/original");
+export const imgstarturl: URL = new URL("https://image.tmdb.org/t/p/original");
 
 const body: HTMLElement = document.body
 
